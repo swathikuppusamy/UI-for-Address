@@ -1,0 +1,326 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+}
+
+.container {
+  max-width: 350px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form .input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+.form .input:focus {
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+.form .login-button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.form .login-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.02);
+}
+
+.form .login-button:active {
+  background-color: #004085;
+  transform: scale(0.98);
+}
+
+.role-selector {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.role-selector label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.role-selector select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+.role-selector select:focus {
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+.social-account-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.social-account-container .forgot-signin {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.social-account-container .forgot-password,
+.social-account-container .signin {
+  margin: 0;
+}
+
+.social-account-container .forgot-password a,
+.social-account-container .signin a {
+  font-size: 12px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-account-container .forgot-password a:hover,
+.social-account-container .signin a:hover {
+  text-decoration: underline;
+}
+
+.social-account-container .title {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.social-account-container .social-accounts {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-account-container .social-accounts .social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.social-account-container .social-accounts .social-button .svg {
+  margin-right: 10px;
+}
+
+.social-account-container .social-accounts .social-button:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.02);
+}
+
+.social-account-container .social-accounts .social-button:active {
+  background-color: #e0e0e0;
+  transform: scale(0.98);
+}
+
+.agreement {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
+
+.agreement a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.agreement a:hover {
+  text-decoration: underline;
+}
+/* LoginPage.css */
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #333;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+.input:focus {
+  border-color: #6a11cb;
+  background-color: #fff;
+}
+
+.role-selector {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.role-selector label {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.login-button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #6a11cb;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.login-button:hover {
+  background-color: #5a0fb4;
+  transform: scale(1.02);
+}
+
+.login-button:active {
+  background-color: #4a0f94;
+  transform: scale(0.98);
+}
+
+.social-account-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.forgot-signin {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.forgot-password,
+.signin {
+  margin: 0;
+}
+
+.forgot-password a,
+.signin a {
+  font-size: 13px;
+  color: #6a11cb;
+  text-decoration: none;
+}
+
+.forgot-password a:hover,
+.signin a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 15px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.social-accounts {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 15px;
+  color: #333;
+  cursor: pointer;
+}
+
+.social-button .svg {
+  margin-right: 10px;
+}
+
+.social-button:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.social-button:active {
+  background-color: #e0e0e0;
+  transform: scale(0.95);
+}
